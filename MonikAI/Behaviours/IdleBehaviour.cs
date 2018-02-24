@@ -11,7 +11,7 @@ using ResponseTuple =
 
 namespace MonikAI.Behaviours
 {
-    class IdleBehaviour : IBehaviour
+    public class IdleBehaviour : IBehaviour
     {
         private readonly CSVParser parser = new CSVParser();
         private readonly Random random = new Random();
